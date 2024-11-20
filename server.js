@@ -18,7 +18,7 @@ let students = [
 
 app.get(`/api/students`, (req, res) => {
     res.send(students)
-});
+});  //  sksdjsd
 
 app.get(`/api/students/:id`,(req,res) => {
     const student = students.find( stu => stu.id === parseInt(req.params.id));
